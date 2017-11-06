@@ -1,0 +1,53 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Rozha One', serif;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+hr {
+  display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-style: inset;
+    border-width: 1px;
+}
+
+button {
+  font-family: 'Rozha One', serif;
+  background-color: #8BC34A;
+  color: #000000;
+  border-radius: 6px;
+  border: none;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 200px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+  background-color: #AED581;
+}
+
+button:active {
+  background-color: #8BC34A;
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+#placeholder {
+  background-color: #EEEEEE;
+  text-shadow: 2px 2px 4px #000000;
+  height: 100px;
+  width: 100px;
+  padding: 50px;
+  margin: 50px auto;
+  border: 1px solid gray;
+  border-radius: 10px;  
+  font-size:80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
